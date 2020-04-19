@@ -12,8 +12,8 @@ let masha = { name: 'Маша', age: 28 };
 let users = [ vasya, petya, masha ];
 
 function namify(users) {
-  return users = users.map(user => user.name);
-};
+  // ваш код
+}
 
 let names = namify(users); // ['Вася', 'Петя', 'Маша']
 ```
